@@ -1092,6 +1092,71 @@ background-position: center center;
 
 
 
+    .front3, .back3{
+        width: 320px;
+        position: relative;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
+    }
+    
+    .front3{
+        cursor: pointer;
+        height: 250px;
+        background-image: url(./assets/hotel.png);
+        /* background: #fff; */
+        backface-visibility: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        /* background-size: cover; */
+        background-position: center center;
+        }
+        .back3{
+            transform: rotateY(180deg);
+            position: absolute;
+            border-radius: 10px;
+            height: 320px;
+         
+            background: url(/assets/Projects/hotel2.png);
+            background-size:cover ;
+        }
+
+
+
+    
+        .front4, .back4{
+            width: 320px;
+            position: relative;
+            top: 0;
+            left: 0;
+            backface-visibility: hidden;
+        }
+        
+        .front4{
+            cursor: pointer;
+            height: 250px;
+            background-image: url(./assets/Projects/weather.png);
+            /* background: #fff; */
+            backface-visibility: hidden;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            /* background-size: cover; */
+            background-position: center center;
+            }
+            .back4{
+                transform: rotateY(180deg);
+                position: absolute;
+                border-radius: 10px;
+                height: 320px;
+             
+                background: url(/assets/Projects/w2.png);
+                background-size:cover ;
+            }
+
+            
+
     .front2, .back2{
         width: 320px;
         position: relative;
